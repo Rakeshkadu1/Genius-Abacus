@@ -228,7 +228,7 @@ body {
 }
 
 .abacus-half {
-    width: 50%;
+    width: 60%;
     min-width: 0;
     overflow-y: auto;
     overflow-x: hidden;
@@ -236,7 +236,7 @@ body {
 }
 
 .pdf-half {
-    width: 50%;
+    width: 40%;
     min-width: 0;
     min-height: 100%;
     background: #ffffff;
@@ -302,7 +302,6 @@ body.header-hidden-mode .school-workspace {
     .abacus-half,
     .pdf-half {
         width: 100%;
-        border-right: 0;
     }
 
     .abacus-half {
@@ -310,12 +309,17 @@ body.header-hidden-mode .school-workspace {
     }
 
     .pdf-half {
-        min-height: 70vh;
+        display: block;
+        min-height: 80vh;
+        background: #fff;
     }
 
     #schoolPdf {
-        height: 70vh;
-        min-height: 500px;
+        display: block;
+        width: 100%;
+        height: 80vh;
+        min-height: 600px;
+        border: 0;
     }
 }
 
@@ -610,7 +614,7 @@ body.header-hidden-mode .school-workspace {
 .upper-column .bead.active {
 
     transform: translateY(
-        48px
+        51px
     );
 }
 
@@ -643,7 +647,7 @@ body.header-hidden-mode .school-workspace {
    ========================================================= */
 
 .lower-column .bead.active {
-    transform: translateY(-38px);
+    transform: translateY(-62px);
 }
 
 
@@ -1104,14 +1108,14 @@ body.header-hidden-mode .abacus-page {
         </button>
 
 
-        <button
+        <!-- <button
             id="clearBtn"
             class="control-btn"
             type="button">
 
             Clear Rods
 
-        </button>
+        </button> -->
 
     </div>
 
